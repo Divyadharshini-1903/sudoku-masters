@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta  charset="UTF-8">
+        <title>SUDOKU GAME</title>
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/5190/5190808.png">
+        <link rel="stylesheet" href="styles.css">
+        <center>
+            <h1>Suduko</h1>
+        </center>
+    </head>
+    <body>
+        <style>
+            body{
+                background-image:url('thumb16.jpg');
+                background-repeat:no-repeat;
+                background-attachment:fixed;
+                background-size:100% 100%;
+            }
+            table{
+                border-collapse:collapse;
+                font-size:2em;
+                margin:0 auto;
+                background-color: aliceblue;
+            }
+            colgroup,tbody{
+                border:solid medium;
+            }
+            td{
+                border:solid thin;
+                height: 1.5em;
+                width:1.5em;
+                text-align:center ;
+                padding:0;
+            }
+            .btn{
+                display:flex;
+                text-align: center;
+                justify-content: center;
+
+
+            }
+            button(
+                margin-top: 15px;
+                font-size: 1.5em;
+                background-colour:red;
+                color:white
+                margin-left:5px;
+                border: yellow;
+                border-radius: 5px;
+                padding : 5px 10px;
+
+
+            )
+            button:hover{
+                color: red;
+                background-color:blue ;
+                transistion: all 1s ease;
+                cursor:pointer;
+            }
+        </style>  
+        <script>
+           let x= document.getElementById("container").rows(0).x;
+           
+        </script>
+        <div id="container">
+            <table id="suduko-board">
+                <colgroup><col><col><col>
+                <colgroup><col><col><col>
+                <colgroup><col><col><col>
+            </colgroup>
+        
+         
+        <tbody>
+            <tr><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td> </tr>
+            <tr><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td> </tr>
+            <tr><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td> </tr>
+        </tbody>
+        <tbody>
+            <tr><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td> </tr>
+            <tr><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td> </tr>
+            <tr><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td> </tr>
+        </tbody>
+        <tbody>
+            <tr><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td> </tr>
+            <tr><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td> </tr>
+            <tr><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td><td contenteditable="true"></td> </tr>
+        </tbody>
+    </table>
+    </div>
+    <div class="btn">
+    <div>
+        <button id="refresh-button">REFRESH</button>
+    </div>
+    <div>
+        <button id="solve-button">SOLVE</button>
+    </div>
+    </div>
+
+
+
+        
+
+           
+            
+
+    </body>
+</html>
+    
